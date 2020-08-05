@@ -1,0 +1,102 @@
+body{
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    background-color: darkcyan;
+    margin: auto;
+
+}
+header{
+    
+    float: left;
+    background-image: url(Screenshot_20200623-142609.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+
+}
+.banner{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: rgba(0, 0,0, 0.7);
+    padding: 4% 0% 4% 0%;
+    color: white;
+    text-transform: uppercase;
+}
+.banner img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+}
+.container{
+    width: 100%;
+    float: left;
+    display: flex;
+}
+.container div:first-child {
+    width: 60%;
+}
+.box{
+    width: 60;
+}
+.box h1 {
+    font-size: 100%;
+    text-transform: uppercase; 
+}
+
+.sub-class {
+    width: 100%;
+    padding: 2%;
+}
+.sub-class.h1{
+    background-color: white;
+
+}
+
+
+hr {
+    width: 20%;
+    border: 1px black solid;
+}
+h1, h2, h3 {
+    font-family: ChunkFiveRegular, Georia, serif;
+    color: white;
+   
+
+}
+
+li , p {
+    color: yellow;
+}
+img.align-centre{
+    display: block;
+
+    margin: 0px auto;
+}
+/**/
+img.align-right{
+    float: right; 
+    margin-left: 10px;
+}
+img.medium{
+    width: 300px;
+    height: 400px;
+}
+img.align-right{
+    float: right; 
+    margin-left: 10px;
+}
+
+img.align-right{
+    float: right; 
+    margin-left: 10px;
+}
+footer{
+
+    text-align:center;
+    color: red;
+    background-color: darkgrey;
+}

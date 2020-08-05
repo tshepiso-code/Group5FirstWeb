@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="styles.css" rel="stylesheet">
+    <link href="responsive.css" rel="stylesheet" type="text/css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-----------------------sidebar----------------------------------> 
+<span style="font-size:30px;
+cursor:pointer"
+onclick="openNav()">&#9776;</span>
+ 
+<div id="mySidenav" class="sidenav">
+    <h1>learn <span>more</span></h1>
+    <br>
+    <ul>
+   <li> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+   <li><a href="#about">about</a></li>
+   <li></li> <a href="#about"<i class="fas fa-qrcode"></i>Sample <span>of our</span> work</a></li>
+   <li></li> <a href="#about"<i class="fas fa-MAP"></i>Map <span>to</span> location</a></li>
+    
+   </ul>
+</div> 
+
+<script>
+ function openNav() {
+     document.getElementById("mySidenav").style.width="250px";
+
+ }
+ function closeNav() {
+     document.getElementById("mySidenav").style.width="0";
+
+ }
+
+</script>
+<!---------------------------------------------------------> 
+
+    <!-- <img src="images/group.jpg" alt="Group Image">-->
+     <nav class="nav_links">
+         <ul>
+         
+             <li><a href="index.html">Home</a></li>
+             <li><a href="#" >About</a></li>
+             <li><a href="contact.html" target="-blank">Contact Us</a></li>
+         </ul>
+     </nav>
+ </header>
+    <p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.8153409241836!2d29.446437614465896!3d-23.896165879925125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d947ce43111f%3A0x9623f830a088a6ed!2sMall%20of%20the%20north!5e0!3m2!1sen!2sza!4v1596383735657!5m2!1sen!2sza" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </p>
+    <div class="wrap">
+        <div class="contact-form">
+            <div class="input-fields">
+                <input type="text" class="input" placeholder="First Name">
+                <input type="text" class="input" placeholder="Last Name">
+                <input type="text" class="input" placeholder="Email Address">
+                <input type="text" class="input" placeholder="Subject">
+
+            </div>
+            <div class="mssg">
+                <textarea placeholder="Message"></textarea>
+                <dv class="btn">Send!</dv>
+            </div>
+        </div>
+      
+    </div>
+      <!-- footer -->
+<div class="footer">
+<div class="footer-content">
+
+    <div class="footer-section about">
+        <h1 class="logo text"><span>mLab</span>Group5</h1>
+        <p>
+         we have the five functions in our team which are: trust, conflict management, commitment, accountability and focusing on results.
+         To have a functioning team, one thing is a must and that is Trust. Trust is the foundation of our team.
+        </p>
+        <div class="contact">
+            <span><i class="fa fa-phone" style="font-size: 15px;"></i> &nbsp; +27 12 345 6789</span>
+            <span><i class="fa fa-envelope" style="font-size: 15px;"></i> &nbsp; info@mlabgroup5</span>
+        </div>
+        <div class="socials">
+            <a href="#"><i class="fab fa-facebook" style="font-size: 15px;"></i></a>
+            <a href="#"><i class="fab fa-instagram" style="font-size: 15px;"></i></a>
+            <a href="#"><i class="fab fa-twitter" style="font-size: 15px;"></i></a>
+            <a href="#"><i class="fab fa-youtube" style="font-size: 15px;"></i></a>
+        </div>
+    </div>
+
+    <div class="footer-section links">
+        <h2>Quick Links</h2>
+    <br>
+    <ul>
+        <a href="#"><li>Events</li>
+        </a>
+        <a href="#"><li>Team</li>
+        </a>
+        <a href="#"><li>Mentors</li>
+        </a>
+        <a href="#"><li>Terms and Conditions</li>
+        </a>
+    </ul>
+    </div>
+    <div class="footer-section contact-form">
+        <h2>Contact Us</h2>	
+<br>
+<form action="index.html" method="post">
+    <input type="email" name="email" class="text.input contact-input" placeholder="your email address..">
+    <textarea name="message" class="text-input contact-input" placeholder="your message..."></textarea>
+    <button type="submit" class="submit btn-big contact-btn">
+    <i class="fa fa-envelope"></i>
+    send
+</button>
+</form>
+    </div>
+</div>
+
+   <div class="footer-bottom">
+      &copy; group5teamportal 2020
+    </div>
+</div>
+<!-- //footer-->    
+</body>
+</html>
