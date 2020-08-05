@@ -5,7 +5,8 @@
     #show,
     .footer .footer-content,
     .team,
-    .contact-form {
+    .contact-form,
+    .footer .footer-bottom{
         display: block;
     }
     .team .team_member .team_image{
