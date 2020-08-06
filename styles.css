@@ -261,7 +261,7 @@ nav{
 
 
         .wrapper{
-            margin-top: 10%;
+            margin-top: 3%;
         }
         .wrapper h1{
             font-family: 'Allura', cursive;
@@ -271,10 +271,14 @@ nav{
             color: #05f7ff;
             text-decoration: underline;
         }
-        .wrapper span{
+        .wrapper p{
             color: white;
+            margin-bottom: 40px;
+            text-align: center;
+            padding: 2px;
         }
         .team{
+            padding-top: 2%;    
             display: flex;
             text-align: center;
             width: auto;
