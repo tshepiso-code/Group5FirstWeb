@@ -6,6 +6,7 @@
     .footer .footer-content,
     .team,
     .contact-form {
+        width:100%;
         display: block;
     }
     .team .team_member .team_image{
